@@ -1,6 +1,6 @@
 import S3L as S3L, random as rnd, math as math
 import matplotlib.pyplot as plt
-agentmodel = S3L.S3L_agent(2, 3.1, 2)
+agentmodel = S3L.S3L_agent(2, 3.1, 4)
 def realLearnStep():
   policy = agentmodel.selectPolicy()
   performance = evaluatePolicy(policy)
