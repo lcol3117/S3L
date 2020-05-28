@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MatPlotLib [ADDED] [NOT IN TEMPLATE]
+nohup.out
