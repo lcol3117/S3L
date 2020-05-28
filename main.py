@@ -12,7 +12,7 @@ def evaluatePolicy(policy):
   dist = getL2NDist(realmax, policy)
   initial = (2 - dist) + 1
   otherdist = getL2NDist([0.2,0.2], policy)
-  otherinitial = 2 - dist
+  otherinitial = 2 - otherdist
   if dist < otherdist:
     return initial
   else:
